@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+.container{
+    margin: auto;
+    width:50%;
+    border: 3px solid black;
+    padding: 10px;
+}
+.main{
+    background-color: green;
+    width: 290PX;
+    height: 200PX;
+    box-shadow: 2px 3px 3px white;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+}
+.white{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    margin-left: -100px;
+    margin-top: -200px;
+    box-shadow: 2px 3px 3px white;
+}
+.cresent{
+    width: 80px;
+    height: 100px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: -150px;
+    border-radius: 50%;
+}
+.cresent1{
+    width: 80px;
+    height: 100px;
+    background-color: white;
+    margin-left: 70px;
+    background-color: green;
+    border-radius: 50%;
+    margin-top: -100px;
+}
+.star{
+    margin-left: 90px;
+    margin-top: 70px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    margin-top: 70px;
+    animation: beat .5s infinite alternate;
+}
+@keyframes beat {
+    to{transform: scale(1.4); color: green; font-size: 30px;}
+}
